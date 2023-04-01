@@ -1,0 +1,67 @@
+
+
+
+
+@media screen and (max-width: 1099px) {
+    .menu{
+        display: none;
+    }
+    .button-group{
+        display: none;
+    }
+    .navbar-toggler{
+        display: block;
+
+    }
+    #logoImg{
+        margin-left: 5px;
+    }
+    
+   
+    
+}
+@media screen and (min-width: 1100px){
+    .navbar-toggler{
+        display: none;
+
+    }
+    .button-group{
+        display: flex;
+    }
+    #logoImg{
+        margin-left: 35px;
+    }
+
+}
+
+@media screen and (max-width: 540px){
+    .seekbar {
+      width: 100%;
+    }.seekbar2{
+        width: 100%;
+    }
+
+
+}@media screen and (min-width: 540px){
+    .seekbar{
+        width: 300px;
+    }.seekbar2{
+
+        width: 300px;
+    }
+}@media screen and (max-width:950px){
+    .slide{
+margin-top: 60px;
+    }
+}
+
+
+@media screen and (min-width: 425px){
+    
+    .java{
+        margin-right: 40px;
+    }
+    .css{
+        margin-right: 40px;
+    }
+}
