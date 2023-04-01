@@ -1,0 +1,49 @@
+.menu {
+    align-items: center;
+    display: flex;
+    margin-right: 10px;
+}
+
+.name-menu {
+    font-family: vazir;
+    margin-right: 5px;
+    color: #292b39;
+    font-size: 16px;
+    margin-left: 20px;
+   
+}
+
+.space {
+    color: #c8cadb;
+    font-family: vazir;
+    font-size: 15px;
+}
+
+.learning {
+    color: #292b39;
+    text-decoration: none;
+    font-family: vazir;
+    margin-right: 20px;
+}
+
+.blog {
+    color: #292b39;
+    text-decoration: none;
+    font-family: vazir;
+    margin-right: 20px;
+}
+
+.icon-menu {
+    font-family: fontawesome;
+    margin-right: 10px;
+    font-size: 20px;
+    margin-left: 13px;
+    color: #292b39;
+}
+
+
+
+.navbar{
+    height: 90px;
+    box-shadow: 1px 1px 50px 1px rgba(0, 0, 0, 0.205);
+}
