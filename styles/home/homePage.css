@@ -1,0 +1,9 @@
+.dev-logo-lang{
+    transition: 0.5s;
+    justify-content: center;
+    align-items: center;
+}
+.dev-logo-lang:hover{
+    filter: blur(4px);
+    
+}
