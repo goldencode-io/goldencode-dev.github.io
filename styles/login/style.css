@@ -1,0 +1,30 @@
+.form-login{
+  display: flex;
+  justify-content: space-between;
+  margin-top:70px;
+  margin-bottom: 70px;
+  width: 50%;
+  height: 450px;
+  background-color: rgba(233, 233, 233, 0.479);
+  border-radius: 20px;
+  box-shadow: 1px 1px 30px 1px rgba(0, 0, 0, 0.15);
+}
+.form-cover{
+
+  width: 100px;
+}
+.input-username{
+  border: none;
+  font-family: vazir;
+  text-align: right;
+  border-radius: 10px;
+  padding: 5px 10px;
+}.input-username::selection{
+  border: 1px;
+}
+
+.input-password{
+  border: 0px;
+  font-family: vazir;
+  text-align: right;
+}
