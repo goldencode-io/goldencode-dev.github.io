@@ -17,7 +17,9 @@
         margin-left: 5px;
     }
     
-   
+    .cover{
+        filter: blur(2px)   
+      }
     
 }
 @media screen and (min-width: 1100px){
@@ -30,6 +32,9 @@
     }
     #logoImg{
         margin-left: 35px;
+    }
+    .cover{
+        filter: blur(4px);
     }
 
 }
