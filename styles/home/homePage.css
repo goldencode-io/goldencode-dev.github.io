@@ -3,7 +3,86 @@
     justify-content: center;
     align-items: center;
 }
-.dev-logo-lang:hover{
+
+.python{
+    transition: 0.5s;
+}
+.python:hover{
     filter: blur(4px);
-    
+}
+
+
+.html{
+    transition: 0.5s;
+}
+.html:hover{
+    filter: blur(4px);
+}
+
+
+
+
+.css{
+    transition: 0.5s;
+}
+.css:hover{
+    filter: blur(4px);
+}
+
+
+
+
+
+
+
+.bootstrap{
+    transition: 0.5s;
+}
+.bootstrap:hover{
+    filter: blur(4px);
+}
+
+
+.js{
+    transition: 0.5s;
+}
+.js:hover{
+    filter: blur(4px);
+}
+
+
+.java{
+    transition: 0.5s;
+}
+.java:hover{
+    filter: blur(4px);
+}
+
+
+
+
+
+
+.php{
+    transition: 0.5s;
+}
+.php:hover{
+    filter: blur(4px);
+}
+
+
+.node-js{
+    transition: 0.5s;
+}
+.node-js:hover{
+    filter: blur(4px);
+}
+
+
+
+.react{
+    transition: 0.5s;
+}
+.react:hover{
+    filter: blur(4px);
 }
