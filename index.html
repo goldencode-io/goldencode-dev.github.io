@@ -20,6 +20,7 @@
     <script src="scripts/home/js/jquery.min.js"></script>
     <script src="scripts/home/js/main.js"></script>
     <script src="scripts/home/js/popper.js"></script>
+    <script src="scripts/home/search.js"></script>
 
     <link href="styles/home/homePage.css" rel="stylesheet">
     <link href="styles/home/notification.css" rel="stylesheet">
@@ -56,12 +57,12 @@
             <nav class="navbar bg-light fixed-top">
               <div class="container-fluid">
                 <form action="" class="button-group" style="font-family: vazir;">
-                  <a href="pages/login/login.html" type="button" class="btn btn-outline-dark" style="margin-left: 10px; border-radius: 9px;  height: 40px;  width: 70px; font-size: 15px; color: #a88832; border: solid 1px #a88832;" >ورود</a>
-          <a href="pages/signup/signup.html" type="button" class="btn btn-outline-dark" style="margin-left: 5px;  height: 45px; border-radius: 9px; height: 40px;  width: 70px; font-size: 15px; color: #a88832; border: solid 1px #a88832;">عضویت</a>
+                  <a href="pages/login.html" type="button" class="btn btn-outline-dark" style="margin-left: 10px; border-radius: 9px;  height: 40px;  width: 70px; font-size: 15px; color: #a88832; border: solid 1px #a88832;" >ورود</a>
+          <a href="pages/signup.html" type="button" class="btn btn-outline-dark" style="margin-left: 5px;  height: 45px; border-radius: 9px; height: 40px;  width: 70px; font-size: 15px; color: #a88832; border: solid 1px #a88832;">عضویت</a>
           
           <form class="d-flex" role="search" >
-            <button class="btn btn-outline-success" type="submit" style="margin-left: 10px; border-radius: 9px; height: 40px;  width: 40px; font-size: 15px;"><i class="fa-solid fa-magnifying-glass" style="margin-top: 5px; "></i></button>
-            <input class="form-control me-2" type="search" placeholder="جستجو"  aria-label="Search" style="border: solid 1px #a88832;margin-left: 7px; text-align: right; border-radius: 9px; height: 40px; font-size: 15px;">
+            <a  href="search.html" class="btn btn-outline-dark"  type="submit" style="color:#a88832; border: solid 1px #a88832; margin-left: 10px; border-radius: 9px; height: 40px;  width: 40px; font-size: 15px;"><i class="fa-solid fa-magnifying-glass" style="margin-top: 5px; "></i></a>
+            <span style="width: 200px;"></span>
            
           </form>
                 </form>
@@ -140,18 +141,16 @@
                       </li>
                     </ul>
                     <br>
-                    <form class="d-flex mt-3 " role="search">
-                      <button class="btn btn-outline-success" type="submit" style="margin-left: 10px; border-radius: 9px;  height: 45px; font-size: 15px;"><i class="fa-solid fa-magnifying-glass" style="margin-top: 5px; "></i></button>
-                      <input class="form-control me-2" type="search" placeholder="جستجو" aria-label="Search" style="border: solid 1px #a88832;margin-left: 7px; text-align: right; border-radius: 9px; height: 45px; font-size: 15px;">
-                    </form>
+
 
                     <br>
                     <a href="pages/login/login.html">
-                      <button type="button" class="btn btn-outline-dark" style="margin-left: 10px; border-radius: 9px;  height: 45px; font-size: 15px; color: #a88832; border: solid 1px #a88832;">ورود</button>
+                      <button type="button" class="btn btn-outline-dark" style="margin-left: 10px; border-radius: 9px;  height: 40px; font-size: 15px; color: #a88832; border: solid 1px #a88832;">ورود</button>
                     </a>
                    
-          <button type="button" class="btn btn-outline-dark" style="margin-left: 5px; margin-right: 10px;  height: 45px; border-radius: 9px; font-size: 15px; color: #a88832;  border: solid 1px #a88832;" >عضویت</button>
-                
+          <button type="button" class="btn btn-outline-dark" style="margin-left: 5px; margin-right: 10px;  height: 40px; border-radius: 9px; font-size: 15px; color: #a88832;  border: solid 1px #a88832;" >عضویت</button>
+          <a  href="search.html" class="btn btn-outline-dark" type="submit" style="color:#a88832; border: solid 1px #a88832; border-radius: 9px;  height: 40px; font-size: 15px;"><i class="fa-solid fa-magnifying-glass" style="margin-top: 5px; "></i></a>
+
                     
                   </div>
                 </div>
@@ -224,6 +223,7 @@
 
 <br><br><br>
 
+
 <div class="box-top">
     <div class="header-box" dir="rtl">
         
@@ -246,36 +246,36 @@
 <div class="lang-programming" style="display: flex; flex-wrap: wrap; font-size: 50px;  justify-content: center;">
 
   <div class="dev-logo-lang">
-    <i style="margin-bottom: 10px; padding: 20px 22px; background-color: #e2bb58;  border-radius: 25px; margin-right: 40px; box-shadow: 1px 1px 30px 1px #a88832;" class="fa-brands fa-python python"></i>
+    <i style="margin-bottom: 20px; padding: 20px 22px; background-color: #e2bb58;  border-radius: 25px; margin-right: 40px; box-shadow: 1px 1px 30px 1px #a88832;" class="fa-brands fa-python python"></i>
   </div>
 
   <div class="dev-logo-lang">
-    <i style="margin-bottom: 10px; padding: 20 22px; background-color: #e2bb58;  border-radius: 25px; margin-right: 40px; box-shadow: 1px 1px 30px 1px #a88832;" class="fa-brands fa-html5 html"></i>
+    <i style=" margin-bottom: 20px; padding: 20 22px; background-color: #e2bb58;  border-radius: 25px; margin-right: 40px; box-shadow: 1px 1px 30px 1px #a88832;" class="fa-brands fa-html5 html"></i>
   </div>
 
 
   <div class="dev-logo-lang">
-    <i style="margin-bottom: 10px; padding: 20 22px; background-color: #e2bb58;  border-radius: 25px; box-shadow: 1px 1px 30px 1px #a88832;" class="fa-brands fa-css3-alt css"></i>
+    <i style="margin-bottom: 20px; padding: 20 22px; background-color: #e2bb58;  border-radius: 25px; box-shadow: 1px 1px 30px 1px #a88832;" class="fa-brands fa-css3-alt css"></i>
   </div>
 
   <div class="dev-logo-lang">
-    <i style="margin-bottom: 10px; padding: 20 14px; background-color: #e2bb58;  border-radius: 25px; margin-right: 40px; box-shadow: 1px 1px 30px 1px #a88832;"  class="fa-brands fa-bootstrap bootstrap"></i>
+    <i style="margin-bottom: 20px; padding: 20 14px; background-color: #e2bb58;  border-radius: 25px; margin-right: 40px; box-shadow: 1px 1px 30px 1px #a88832;"  class="fa-brands fa-bootstrap bootstrap"></i>
   </div>
 
   <div class="dev-logo-lang">
-    <i style="margin-bottom: 10px; padding: 20 22px; background-color: #e2bb58;  border-radius: 25px; margin-right: 40px; box-shadow: 1px 1px 30px 1px #a88832;"  class="fa-brands fa-square-js js"></i>
+    <i style="margin-bottom: 20px; padding: 20 22px; background-color: #e2bb58;  border-radius: 25px; margin-right: 40px; box-shadow: 1px 1px 30px 1px #a88832;"  class="fa-brands fa-square-js js"></i>
   </div>
 
   <div class="dev-logo-lang">
-    <i style="margin-bottom: 10px; padding: 20 23px; background-color: #e2bb58;  border-radius: 25px;box-shadow: 1px 1px 30px 1px #a88832;"  class="fa-brands fa-java java"></i>
+    <i style="margin-bottom: 20px; padding: 20 23px; background-color: #e2bb58;  border-radius: 25px;box-shadow: 1px 1px 30px 1px #a88832;"  class="fa-brands fa-java java"></i>
   </div>
 
   <div class="dev-logo-lang">
-    <i style="margin-bottom: 10px; padding: 20 14px; background-color: #e2bb58;  border-radius: 25px; margin-right: 40px; box-shadow: 1px 1px 30px 1px #a88832;"  class="fa-brands fa-php php"></i>
+    <i style="margin-bottom: 20px; padding: 20 14px; background-color: #e2bb58;  border-radius: 25px; margin-right: 40px; box-shadow: 1px 1px 30px 1px #a88832;"  class="fa-brands fa-php php"></i>
   </div>
 
 <div class="dev-logo-lang">
-  <i style="margin-bottom: 10px; padding: 20px; background-color: #e2bb58;  border-radius: 25px; margin-right: 40px; box-shadow: 1px 1px 30px 1px #a88832;" class="fa-brands fa-node-js node-js"></i>
+  <i style="margin-bottom: 20px; padding: 20px; background-color: #e2bb58;  border-radius: 25px; margin-right: 40px; box-shadow: 1px 1px 30px 1px #a88832;" class="fa-brands fa-node-js node-js"></i>
 </div>
 
 
@@ -929,6 +929,7 @@
 
       <script src="scripts/home/voicePlayer.js"></script>
       <script src="scripts/home/voicePlayer2.js"></script>
+ 
     </body>
 
 </html>
