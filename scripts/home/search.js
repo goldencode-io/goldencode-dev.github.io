@@ -6,10 +6,10 @@ function search2(){
 
     
     document.getElementById("txtSearch").innerHTML = "جستجو : "+search;
-    if (searchInput == "پایتون"){
-
-    }
     
+    
+
+
 
 }
 
@@ -20,9 +20,23 @@ function search3(){
 
     
     document.getElementById("txtSearch").innerHTML = "جستجو : "+search;
-    if (searchInput == "پایتون"){
-
+    if (search == "پایتون"){
+        
+        setTimeout(function() {
+            document.getElementById("ai").style.display = "none";
+            document.getElementById("python").style.display = "flex";    
+          }, 1000);
+    }if (search == "هوشمصنوعی"){
+        setTimeout(function() {
+            document.getElementById("python").style.display = "none";
+            document.getElementById("ai").style.display = "flex";    
+          }, 1000);
+    }else{
+        document.getElementById("python").style.display = "none";
+        document.getElementById("ai").style.display = "none";    
     }
-    
 
 }
+
+
+
