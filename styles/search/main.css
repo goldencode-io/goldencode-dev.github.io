@@ -1,0 +1,18 @@
+.card{
+    margin-left: 50px;
+    margin-bottom: 50px;
+    
+}
+
+
+.card:hover{
+         
+    box-shadow: 10px 1px 50px 1px rgba(0, 0, 0, 0.150); 
+  }
+
+#python{
+    display: none;
+}
+#ai{
+    display: none;
+}
